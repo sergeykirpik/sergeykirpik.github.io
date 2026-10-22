@@ -1,7 +1,28 @@
 {
-  "version": 1,
-  "exportedAt": "2026-10-22T21:52:26.255Z",
+  "version": 2,
+  "exportedAt": "2026-10-22T23:01:34.305Z",
   "concepts": {
+    "airport": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "place"
+      ]
+    },
+    "angry": {
+      "pos": "adj",
+      "mod": [
+        "animate"
+      ]
+    },
+    "ant": {
+      "pos": "noun",
+      "tags": [
+        "animal",
+        "animate",
+        "concrete"
+      ]
+    },
     "apple": {
       "pos": "noun",
       "tags": [
@@ -10,11 +31,103 @@
         "fruit"
       ]
     },
+    "arrive": {
+      "pos": "verb",
+      "subj": [
+        "animate",
+        "vehicle"
+      ]
+    },
+    "baby": {
+      "pos": "noun",
+      "tags": [
+        "animate",
+        "concrete",
+        "human",
+        "person"
+      ]
+    },
     "backpack": {
       "pos": "noun",
       "tags": [
         "concrete",
+        "container",
+        "object",
+        "openable",
+        "portable"
+      ]
+    },
+    "bag": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "container",
+        "object",
+        "openable",
+        "portable"
+      ]
+    },
+    "ball": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "object",
+        "portable"
+      ]
+    },
+    "banana": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "food",
+        "fruit"
+      ]
+    },
+    "beach": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "place"
+      ]
+    },
+    "bear": {
+      "pos": "noun",
+      "tags": [
+        "animal",
+        "animate",
+        "concrete"
+      ]
+    },
+    "bed": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "furniture",
         "object"
+      ]
+    },
+    "bee": {
+      "pos": "noun",
+      "tags": [
+        "animal",
+        "animate",
+        "concrete",
+        "winged"
+      ]
+    },
+    "beer": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "drink"
+      ]
+    },
+    "bicycle": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "object",
+        "vehicle"
       ]
     },
     "big": {
@@ -23,12 +136,74 @@
         "concrete"
       ]
     },
+    "bird": {
+      "pos": "noun",
+      "tags": [
+        "animal",
+        "animate",
+        "bird",
+        "concrete",
+        "winged"
+      ]
+    },
+    "black": {
+      "pos": "adj",
+      "mod": [
+        "animal",
+        "object"
+      ]
+    },
+    "blue": {
+      "pos": "adj",
+      "mod": [
+        "object"
+      ]
+    },
+    "boat": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "object",
+        "vehicle"
+      ]
+    },
     "book": {
       "pos": "noun",
       "tags": [
         "concrete",
         "object",
+        "openable",
+        "portable",
         "readable"
+      ]
+    },
+    "boot": {
+      "pos": "noun",
+      "tags": [
+        "clothing",
+        "concrete",
+        "object",
+        "portable"
+      ]
+    },
+    "bottle": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "container",
+        "object",
+        "openable",
+        "portable"
+      ]
+    },
+    "box": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "container",
+        "object",
+        "openable",
+        "portable"
       ]
     },
     "boy": {
@@ -47,12 +222,150 @@
         "food"
       ]
     },
+    "break": {
+      "pos": "verb",
+      "subj": [
+        "animate"
+      ],
+      "obj": [
+        "furniture",
+        "portable"
+      ]
+    },
+    "bridge": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "place"
+      ]
+    },
+    "broken": {
+      "pos": "adj",
+      "mod": [
+        "furniture",
+        "portable",
+        "vehicle"
+      ]
+    },
+    "brother": {
+      "pos": "noun",
+      "tags": [
+        "animate",
+        "concrete",
+        "human",
+        "person"
+      ]
+    },
+    "brown": {
+      "pos": "adj",
+      "mod": [
+        "animal",
+        "object"
+      ]
+    },
+    "bus": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "object",
+        "vehicle"
+      ]
+    },
+    "butterfly": {
+      "pos": "noun",
+      "tags": [
+        "animal",
+        "animate",
+        "concrete",
+        "winged"
+      ]
+    },
+    "buy": {
+      "pos": "verb",
+      "obj": [
+        "animal",
+        "drink",
+        "food",
+        "object",
+        "plant"
+      ],
+      "subj": [
+        "human"
+      ]
+    },
+    "cake": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "food"
+      ]
+    },
+    "call": {
+      "pos": "verb",
+      "obj": [
+        "animate"
+      ],
+      "subj": [
+        "human"
+      ]
+    },
+    "candy": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "food"
+      ]
+    },
+    "car": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "object",
+        "vehicle"
+      ]
+    },
+    "carrot": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "food",
+        "vegetable"
+      ]
+    },
+    "carry": {
+      "pos": "verb",
+      "subj": [
+        "animate"
+      ],
+      "obj": [
+        "drink",
+        "food",
+        "portable"
+      ]
+    },
     "cat": {
       "pos": "noun",
       "tags": [
         "animal",
         "animate",
         "concrete"
+      ]
+    },
+    "chair": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "furniture",
+        "object"
+      ]
+    },
+    "cheap": {
+      "pos": "adj",
+      "mod": [
+        "drink",
+        "food",
+        "object",
+        "place"
       ]
     },
     "cheese": {
@@ -62,11 +375,220 @@
         "food"
       ]
     },
+    "cherry": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "food",
+        "fruit"
+      ]
+    },
+    "child": {
+      "pos": "noun",
+      "tags": [
+        "animate",
+        "concrete",
+        "human",
+        "person"
+      ]
+    },
+    "choose": {
+      "pos": "verb",
+      "obj": [
+        "concrete"
+      ],
+      "subj": [
+        "human"
+      ]
+    },
+    "church": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "place"
+      ]
+    },
     "city": {
       "pos": "noun",
       "tags": [
         "concrete",
         "place"
+      ]
+    },
+    "clean": {
+      "pos": "verb",
+      "obj": [
+        "furniture",
+        "place",
+        "portable",
+        "vehicle"
+      ],
+      "subj": [
+        "human"
+      ]
+    },
+    "clean_adj": {
+      "pos": "adj",
+      "mod": [
+        "animal",
+        "object",
+        "place"
+      ]
+    },
+    "close": {
+      "pos": "verb",
+      "subj": [
+        "human"
+      ],
+      "obj": [
+        "openable"
+      ]
+    },
+    "coffee": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "drink"
+      ]
+    },
+    "cold": {
+      "pos": "adj",
+      "mod": [
+        "drink",
+        "food",
+        "place"
+      ]
+    },
+    "comfortable": {
+      "pos": "adj",
+      "mod": [
+        "clothing",
+        "furniture",
+        "vehicle"
+      ]
+    },
+    "comic": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "object",
+        "portable",
+        "readable"
+      ]
+    },
+    "computer": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "object",
+        "portable"
+      ]
+    },
+    "cook": {
+      "pos": "verb",
+      "obj": [
+        "food"
+      ],
+      "subj": [
+        "human"
+      ]
+    },
+    "cook_person": {
+      "pos": "noun",
+      "tags": [
+        "animate",
+        "concrete",
+        "human",
+        "person"
+      ]
+    },
+    "cookie": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "food"
+      ]
+    },
+    "cow": {
+      "pos": "noun",
+      "tags": [
+        "animal",
+        "animate",
+        "concrete"
+      ]
+    },
+    "cry": {
+      "pos": "verb",
+      "subj": [
+        "animate"
+      ]
+    },
+    "cup": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "container",
+        "object",
+        "portable"
+      ]
+    },
+    "dance": {
+      "pos": "verb",
+      "subj": [
+        "human"
+      ]
+    },
+    "dangerous": {
+      "pos": "adj",
+      "mod": [
+        "animal",
+        "place"
+      ]
+    },
+    "dark": {
+      "pos": "adj",
+      "mod": [
+        "object",
+        "place"
+      ]
+    },
+    "daughter": {
+      "pos": "noun",
+      "tags": [
+        "animate",
+        "concrete",
+        "human",
+        "person"
+      ]
+    },
+    "day": {
+      "pos": "noun",
+      "tags": [
+        "time"
+      ]
+    },
+    "delicious": {
+      "pos": "adj",
+      "mod": [
+        "drink",
+        "food"
+      ]
+    },
+    "dirty": {
+      "pos": "adj",
+      "mod": [
+        "animal",
+        "object",
+        "place"
+      ]
+    },
+    "doctor": {
+      "pos": "noun",
+      "tags": [
+        "animate",
+        "concrete",
+        "human",
+        "person"
       ]
     },
     "dog": {
@@ -77,6 +599,69 @@
         "concrete"
       ]
     },
+    "door": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "object",
+        "openable"
+      ]
+    },
+    "draw": {
+      "pos": "verb",
+      "obj": [
+        "concrete"
+      ],
+      "subj": [
+        "human"
+      ]
+    },
+    "dress": {
+      "pos": "noun",
+      "tags": [
+        "clothing",
+        "concrete",
+        "object",
+        "portable"
+      ]
+    },
+    "drink": {
+      "pos": "verb",
+      "subj": [
+        "animate"
+      ],
+      "obj": [
+        "drink"
+      ]
+    },
+    "drive": {
+      "pos": "verb",
+      "subj": [
+        "human"
+      ],
+      "obj": [
+        "vehicle"
+      ]
+    },
+    "drum": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "instrument",
+        "object",
+        "portable"
+      ]
+    },
+    "duck": {
+      "pos": "noun",
+      "tags": [
+        "animal",
+        "animate",
+        "bird",
+        "concrete",
+        "winged"
+      ]
+    },
     "eat": {
       "pos": "verb",
       "subj": [
@@ -84,6 +669,87 @@
       ],
       "obj": [
         "food"
+      ]
+    },
+    "elegant": {
+      "pos": "adj",
+      "mod": [
+        "clothing",
+        "human",
+        "place"
+      ]
+    },
+    "elephant": {
+      "pos": "noun",
+      "tags": [
+        "animal",
+        "animate",
+        "concrete"
+      ]
+    },
+    "empty": {
+      "pos": "adj",
+      "mod": [
+        "container",
+        "place",
+        "vehicle"
+      ]
+    },
+    "evening": {
+      "pos": "noun",
+      "tags": [
+        "time"
+      ]
+    },
+    "expensive": {
+      "pos": "adj",
+      "mod": [
+        "drink",
+        "food",
+        "object",
+        "place"
+      ]
+    },
+    "famous": {
+      "pos": "adj",
+      "mod": [
+        "human",
+        "place",
+        "readable"
+      ]
+    },
+    "farmer": {
+      "pos": "noun",
+      "tags": [
+        "animate",
+        "concrete",
+        "human",
+        "person"
+      ]
+    },
+    "fast": {
+      "pos": "adj",
+      "mod": [
+        "animate",
+        "vehicle"
+      ]
+    },
+    "father": {
+      "pos": "noun",
+      "tags": [
+        "animate",
+        "concrete",
+        "human",
+        "person"
+      ]
+    },
+    "find": {
+      "pos": "verb",
+      "subj": [
+        "animate"
+      ],
+      "obj": [
+        "concrete"
       ]
     },
     "finish": {
@@ -96,6 +762,71 @@
         "human"
       ]
     },
+    "fish": {
+      "pos": "noun",
+      "tags": [
+        "animal",
+        "animate",
+        "concrete"
+      ]
+    },
+    "flower": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "plant"
+      ]
+    },
+    "fly": {
+      "pos": "verb",
+      "subj": [
+        "vehicle",
+        "winged"
+      ]
+    },
+    "follow": {
+      "pos": "verb",
+      "subj": [
+        "animate"
+      ],
+      "obj": [
+        "animate",
+        "vehicle"
+      ]
+    },
+    "forest": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "place"
+      ]
+    },
+    "forget": {
+      "pos": "verb",
+      "subj": [
+        "human"
+      ],
+      "obj": [
+        "human",
+        "place",
+        "portable"
+      ]
+    },
+    "fox": {
+      "pos": "noun",
+      "tags": [
+        "animal",
+        "animate",
+        "concrete"
+      ]
+    },
+    "fresh": {
+      "pos": "adj",
+      "mod": [
+        "drink",
+        "food"
+      ]
+    },
     "friend": {
       "pos": "noun",
       "tags": [
@@ -103,6 +834,37 @@
         "concrete",
         "human",
         "person"
+      ]
+    },
+    "full": {
+      "pos": "adj",
+      "mod": [
+        "container",
+        "place",
+        "vehicle"
+      ]
+    },
+    "funny": {
+      "pos": "adj",
+      "mod": [
+        "human",
+        "readable"
+      ]
+    },
+    "garden": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "place"
+      ]
+    },
+    "gift": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "object",
+        "openable",
+        "portable"
       ]
     },
     "girl": {
@@ -114,10 +876,80 @@
         "person"
       ]
     },
+    "glass": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "container",
+        "object",
+        "portable"
+      ]
+    },
+    "grandfather": {
+      "pos": "noun",
+      "tags": [
+        "animate",
+        "concrete",
+        "human",
+        "person"
+      ]
+    },
+    "grandmother": {
+      "pos": "noun",
+      "tags": [
+        "animate",
+        "concrete",
+        "human",
+        "person"
+      ]
+    },
+    "green": {
+      "pos": "adj",
+      "mod": [
+        "fruit",
+        "object",
+        "plant",
+        "vegetable"
+      ]
+    },
+    "grow": {
+      "pos": "verb",
+      "subj": [
+        "animate",
+        "plant"
+      ]
+    },
+    "guitar": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "instrument",
+        "object",
+        "portable"
+      ]
+    },
     "happy": {
       "pos": "adj",
       "mod": [
         "animate"
+      ]
+    },
+    "hat": {
+      "pos": "noun",
+      "tags": [
+        "clothing",
+        "concrete",
+        "object",
+        "portable"
+      ]
+    },
+    "hate": {
+      "pos": "verb",
+      "obj": [
+        "concrete"
+      ],
+      "subj": [
+        "human"
       ]
     },
     "have": {
@@ -131,10 +963,77 @@
         "animate"
       ]
     },
+    "hear": {
+      "pos": "verb",
+      "subj": [
+        "animate"
+      ],
+      "obj": [
+        "animate",
+        "instrument",
+        "vehicle"
+      ]
+    },
+    "heavy": {
+      "pos": "adj",
+      "mod": [
+        "animal",
+        "object"
+      ]
+    },
+    "help": {
+      "pos": "verb",
+      "obj": [
+        "animate"
+      ],
+      "subj": [
+        "human"
+      ]
+    },
+    "hen": {
+      "pos": "noun",
+      "tags": [
+        "animal",
+        "animate",
+        "bird",
+        "concrete",
+        "winged"
+      ]
+    },
     "honest": {
       "pos": "adj",
       "mod": [
         "human"
+      ]
+    },
+    "horse": {
+      "pos": "noun",
+      "tags": [
+        "animal",
+        "animate",
+        "concrete"
+      ]
+    },
+    "hospital": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "place"
+      ]
+    },
+    "hot": {
+      "pos": "adj",
+      "mod": [
+        "drink",
+        "food",
+        "place"
+      ]
+    },
+    "hotel": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "place"
       ]
     },
     "hour": {
@@ -149,6 +1048,180 @@
         "concrete",
         "object",
         "place"
+      ]
+    },
+    "huge": {
+      "pos": "adj",
+      "mod": [
+        "concrete"
+      ]
+    },
+    "hungry": {
+      "pos": "adj",
+      "mod": [
+        "animate"
+      ]
+    },
+    "ice_cream": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "food"
+      ]
+    },
+    "intelligent": {
+      "pos": "adj",
+      "mod": [
+        "animate"
+      ]
+    },
+    "interesting": {
+      "pos": "adj",
+      "mod": [
+        "human",
+        "place",
+        "readable"
+      ]
+    },
+    "island": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "place"
+      ]
+    },
+    "jacket": {
+      "pos": "noun",
+      "tags": [
+        "clothing",
+        "concrete",
+        "object",
+        "portable"
+      ]
+    },
+    "juice": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "drink"
+      ]
+    },
+    "jump": {
+      "pos": "verb",
+      "subj": [
+        "animate"
+      ]
+    },
+    "key": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "object",
+        "portable"
+      ]
+    },
+    "kind": {
+      "pos": "adj",
+      "mod": [
+        "human"
+      ]
+    },
+    "kitchen": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "place"
+      ]
+    },
+    "knife": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "object",
+        "portable"
+      ]
+    },
+    "know": {
+      "pos": "verb",
+      "subj": [
+        "human"
+      ],
+      "obj": [
+        "human",
+        "place"
+      ]
+    },
+    "lake": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "place"
+      ]
+    },
+    "lamp": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "furniture",
+        "object"
+      ]
+    },
+    "laugh": {
+      "pos": "verb",
+      "subj": [
+        "human"
+      ]
+    },
+    "lazy": {
+      "pos": "adj",
+      "mod": [
+        "animate"
+      ]
+    },
+    "leave": {
+      "pos": "verb",
+      "subj": [
+        "animate",
+        "vehicle"
+      ]
+    },
+    "lemon": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "food",
+        "fruit"
+      ]
+    },
+    "letter": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "object",
+        "openable",
+        "portable",
+        "readable"
+      ]
+    },
+    "library": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "place"
+      ]
+    },
+    "light": {
+      "pos": "adj",
+      "mod": [
+        "portable"
+      ]
+    },
+    "lion": {
+      "pos": "noun",
+      "tags": [
+        "animal",
+        "animate",
+        "concrete"
       ]
     },
     "long": {
@@ -167,9 +1240,484 @@
         "concrete"
       ]
     },
+    "lose": {
+      "pos": "verb",
+      "obj": [
+        "animal",
+        "portable"
+      ],
+      "subj": [
+        "human"
+      ]
+    },
+    "love": {
+      "pos": "verb",
+      "obj": [
+        "concrete"
+      ],
+      "subj": [
+        "human"
+      ]
+    },
+    "magazine": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "object",
+        "portable",
+        "readable"
+      ]
+    },
+    "man": {
+      "pos": "noun",
+      "tags": [
+        "animate",
+        "concrete",
+        "human",
+        "person"
+      ]
+    },
+    "map": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "object",
+        "portable",
+        "readable"
+      ]
+    },
+    "market": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "place"
+      ]
+    },
+    "meet": {
+      "pos": "verb",
+      "subj": [
+        "human"
+      ],
+      "obj": [
+        "human"
+      ]
+    },
+    "melon": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "food",
+        "fruit"
+      ]
+    },
+    "menu": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "object",
+        "readable"
+      ]
+    },
+    "message": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "object",
+        "readable"
+      ]
+    },
+    "minute": {
+      "pos": "noun",
+      "tags": [
+        "time"
+      ]
+    },
+    "mirror": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "furniture",
+        "object"
+      ]
+    },
+    "modern": {
+      "pos": "adj",
+      "mod": [
+        "object",
+        "place"
+      ]
+    },
+    "monkey": {
+      "pos": "noun",
+      "tags": [
+        "animal",
+        "animate",
+        "concrete"
+      ]
+    },
+    "month": {
+      "pos": "noun",
+      "tags": [
+        "time"
+      ]
+    },
+    "morning": {
+      "pos": "noun",
+      "tags": [
+        "time"
+      ]
+    },
+    "mother": {
+      "pos": "noun",
+      "tags": [
+        "animate",
+        "concrete",
+        "human",
+        "person"
+      ]
+    },
+    "mountain": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "place"
+      ]
+    },
+    "mouse": {
+      "pos": "noun",
+      "tags": [
+        "animal",
+        "animate",
+        "concrete"
+      ]
+    },
+    "museum": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "place"
+      ]
+    },
+    "new": {
+      "pos": "adj",
+      "mod": [
+        "object",
+        "place"
+      ]
+    },
+    "newspaper": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "object",
+        "portable",
+        "readable"
+      ]
+    },
+    "night": {
+      "pos": "noun",
+      "tags": [
+        "time"
+      ]
+    },
+    "noisy": {
+      "pos": "adj",
+      "mod": [
+        "animate",
+        "place",
+        "vehicle"
+      ]
+    },
+    "notebook": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "object",
+        "portable"
+      ]
+    },
+    "novel": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "object",
+        "portable",
+        "readable"
+      ]
+    },
+    "office": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "place"
+      ]
+    },
     "old": {
       "pos": "adj",
       "mod": [
+        "concrete"
+      ]
+    },
+    "onion": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "food",
+        "vegetable"
+      ]
+    },
+    "open": {
+      "pos": "verb",
+      "subj": [
+        "human"
+      ],
+      "obj": [
+        "openable"
+      ]
+    },
+    "orange": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "food",
+        "fruit"
+      ]
+    },
+    "order": {
+      "pos": "verb",
+      "obj": [
+        "drink",
+        "food"
+      ],
+      "subj": [
+        "human"
+      ]
+    },
+    "paint": {
+      "pos": "verb",
+      "obj": [
+        "furniture",
+        "place",
+        "vehicle"
+      ],
+      "subj": [
+        "human"
+      ]
+    },
+    "painting": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "object"
+      ]
+    },
+    "park": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "place"
+      ]
+    },
+    "peach": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "food",
+        "fruit"
+      ]
+    },
+    "pear": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "food",
+        "fruit"
+      ]
+    },
+    "pen": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "object",
+        "portable"
+      ]
+    },
+    "pencil": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "object",
+        "portable"
+      ]
+    },
+    "perfect": {
+      "pos": "adj",
+      "mod": [
+        "concrete",
+        "time"
+      ]
+    },
+    "phone": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "object",
+        "portable"
+      ]
+    },
+    "photograph": {
+      "pos": "verb",
+      "obj": [
+        "concrete"
+      ],
+      "subj": [
+        "human"
+      ]
+    },
+    "piano": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "instrument",
+        "object"
+      ]
+    },
+    "pig": {
+      "pos": "noun",
+      "tags": [
+        "animal",
+        "animate",
+        "concrete"
+      ]
+    },
+    "pink": {
+      "pos": "adj",
+      "mod": [
+        "object",
+        "plant"
+      ]
+    },
+    "pizza": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "food"
+      ]
+    },
+    "plane": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "object",
+        "vehicle"
+      ]
+    },
+    "plant": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "plant"
+      ]
+    },
+    "plate": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "object",
+        "portable"
+      ]
+    },
+    "play": {
+      "pos": "verb",
+      "subj": [
+        "animate"
+      ]
+    },
+    "play_instrument": {
+      "pos": "verb",
+      "subj": [
+        "human"
+      ],
+      "obj": [
+        "instrument"
+      ]
+    },
+    "poem": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "object",
+        "readable"
+      ]
+    },
+    "police_officer": {
+      "pos": "noun",
+      "tags": [
+        "animate",
+        "concrete",
+        "human",
+        "person"
+      ]
+    },
+    "poor": {
+      "pos": "adj",
+      "mod": [
+        "human"
+      ]
+    },
+    "potato": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "food",
+        "vegetable"
+      ]
+    },
+    "prefer": {
+      "pos": "verb",
+      "obj": [
+        "concrete"
+      ],
+      "subj": [
+        "human"
+      ]
+    },
+    "pretty": {
+      "pos": "adj",
+      "mod": [
+        "concrete"
+      ]
+    },
+    "prince": {
+      "pos": "noun",
+      "tags": [
+        "animate",
+        "concrete",
+        "human",
+        "person"
+      ]
+    },
+    "queen": {
+      "pos": "noun",
+      "tags": [
+        "animate",
+        "concrete",
+        "human",
+        "person"
+      ]
+    },
+    "quiet": {
+      "pos": "adj",
+      "mod": [
+        "animate",
+        "place"
+      ]
+    },
+    "rabbit": {
+      "pos": "noun",
+      "tags": [
+        "animal",
+        "animate",
         "concrete"
       ]
     },
@@ -189,10 +1737,85 @@
         "object"
       ]
     },
+    "remember": {
+      "pos": "verb",
+      "obj": [
+        "concrete",
+        "time"
+      ],
+      "subj": [
+        "human"
+      ]
+    },
+    "repair": {
+      "pos": "verb",
+      "obj": [
+        "furniture",
+        "portable",
+        "vehicle"
+      ],
+      "subj": [
+        "human"
+      ]
+    },
+    "restaurant": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "place"
+      ]
+    },
+    "rich": {
+      "pos": "adj",
+      "mod": [
+        "human"
+      ]
+    },
+    "ripe": {
+      "pos": "adj",
+      "mod": [
+        "fruit",
+        "vegetable"
+      ]
+    },
+    "river": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "place"
+      ]
+    },
     "run": {
       "pos": "verb",
       "subj": [
         "animate"
+      ]
+    },
+    "sad": {
+      "pos": "adj",
+      "mod": [
+        "animate"
+      ]
+    },
+    "salad": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "food"
+      ]
+    },
+    "sandwich": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "food"
+      ]
+    },
+    "school": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "place"
       ]
     },
     "see": {
@@ -204,10 +1827,203 @@
         "concrete"
       ]
     },
+    "sell": {
+      "pos": "verb",
+      "obj": [
+        "animal",
+        "drink",
+        "food",
+        "object",
+        "plant"
+      ],
+      "subj": [
+        "human"
+      ]
+    },
+    "sheep": {
+      "pos": "noun",
+      "tags": [
+        "animal",
+        "animate",
+        "concrete"
+      ]
+    },
+    "shirt": {
+      "pos": "noun",
+      "tags": [
+        "clothing",
+        "concrete",
+        "object",
+        "portable"
+      ]
+    },
+    "shoe": {
+      "pos": "noun",
+      "tags": [
+        "clothing",
+        "concrete",
+        "object",
+        "portable"
+      ]
+    },
+    "shop": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "place"
+      ]
+    },
+    "short": {
+      "pos": "adj",
+      "mod": [
+        "readable",
+        "time"
+      ]
+    },
+    "shout": {
+      "pos": "verb",
+      "subj": [
+        "human"
+      ]
+    },
+    "sing": {
+      "pos": "verb",
+      "subj": [
+        "bird",
+        "human"
+      ]
+    },
+    "sister": {
+      "pos": "noun",
+      "tags": [
+        "animate",
+        "concrete",
+        "human",
+        "person"
+      ]
+    },
     "sleep": {
       "pos": "verb",
       "subj": [
         "animate"
+      ]
+    },
+    "slow": {
+      "pos": "adj",
+      "mod": [
+        "animate",
+        "vehicle"
+      ]
+    },
+    "small": {
+      "pos": "adj",
+      "mod": [
+        "concrete"
+      ]
+    },
+    "smile": {
+      "pos": "verb",
+      "subj": [
+        "human"
+      ]
+    },
+    "snake": {
+      "pos": "noun",
+      "tags": [
+        "animal",
+        "animate",
+        "concrete"
+      ]
+    },
+    "sofa": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "furniture",
+        "object"
+      ]
+    },
+    "soft": {
+      "pos": "adj",
+      "mod": [
+        "animal",
+        "clothing",
+        "food",
+        "furniture"
+      ]
+    },
+    "son": {
+      "pos": "noun",
+      "tags": [
+        "animate",
+        "concrete",
+        "human",
+        "person"
+      ]
+    },
+    "soup": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "food"
+      ]
+    },
+    "spoon": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "object",
+        "portable"
+      ]
+    },
+    "square": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "place"
+      ]
+    },
+    "squirrel": {
+      "pos": "noun",
+      "tags": [
+        "animal",
+        "animate",
+        "concrete"
+      ]
+    },
+    "station": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "place"
+      ]
+    },
+    "strange": {
+      "pos": "adj",
+      "mod": [
+        "concrete"
+      ]
+    },
+    "strawberry": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "food",
+        "fruit"
+      ]
+    },
+    "street": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "place"
+      ]
+    },
+    "strong": {
+      "pos": "adj",
+      "mod": [
+        "animate",
+        "drink"
       ]
     },
     "student": {
@@ -219,6 +2035,173 @@
         "person"
       ]
     },
+    "study": {
+      "pos": "verb",
+      "subj": [
+        "human"
+      ],
+      "obj": [
+        "readable"
+      ]
+    },
+    "suitcase": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "container",
+        "object",
+        "openable",
+        "portable"
+      ]
+    },
+    "summer": {
+      "pos": "noun",
+      "tags": [
+        "time"
+      ]
+    },
+    "sweet": {
+      "pos": "adj",
+      "mod": [
+        "drink",
+        "food"
+      ]
+    },
+    "swim": {
+      "pos": "verb",
+      "subj": [
+        "animate"
+      ]
+    },
+    "table": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "furniture",
+        "object"
+      ]
+    },
+    "take": {
+      "pos": "verb",
+      "obj": [
+        "drink",
+        "food",
+        "portable",
+        "vehicle"
+      ],
+      "subj": [
+        "human"
+      ]
+    },
+    "tall": {
+      "pos": "adj",
+      "mod": [
+        "human",
+        "plant"
+      ]
+    },
+    "tea": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "drink"
+      ]
+    },
+    "teacher": {
+      "pos": "noun",
+      "tags": [
+        "animate",
+        "concrete",
+        "human",
+        "person"
+      ]
+    },
+    "tiger": {
+      "pos": "noun",
+      "tags": [
+        "animal",
+        "animate",
+        "concrete"
+      ]
+    },
+    "tired": {
+      "pos": "adj",
+      "mod": [
+        "animate"
+      ]
+    },
+    "tomato": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "food",
+        "vegetable"
+      ]
+    },
+    "touch": {
+      "pos": "verb",
+      "subj": [
+        "animate"
+      ],
+      "obj": [
+        "concrete"
+      ]
+    },
+    "tourist": {
+      "pos": "noun",
+      "tags": [
+        "animate",
+        "concrete",
+        "human",
+        "person"
+      ]
+    },
+    "toy": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "object",
+        "portable"
+      ]
+    },
+    "train": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "object",
+        "vehicle"
+      ]
+    },
+    "tree": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "plant"
+      ]
+    },
+    "truck": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "object",
+        "vehicle"
+      ]
+    },
+    "ugly": {
+      "pos": "adj",
+      "mod": [
+        "concrete"
+      ]
+    },
+    "umbrella": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "object",
+        "openable",
+        "portable"
+      ]
+    },
     "uncle": {
       "pos": "noun",
       "tags": [
@@ -228,6 +2211,109 @@
         "person"
       ]
     },
+    "use": {
+      "pos": "verb",
+      "obj": [
+        "furniture",
+        "portable",
+        "vehicle"
+      ],
+      "subj": [
+        "human"
+      ]
+    },
+    "useful": {
+      "pos": "adj",
+      "mod": [
+        "object"
+      ]
+    },
+    "village": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "place"
+      ]
+    },
+    "violin": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "instrument",
+        "object",
+        "portable"
+      ]
+    },
+    "visit": {
+      "pos": "verb",
+      "subj": [
+        "human"
+      ],
+      "obj": [
+        "human",
+        "place"
+      ]
+    },
+    "wait_for": {
+      "pos": "verb",
+      "subj": [
+        "animate"
+      ],
+      "obj": [
+        "animate",
+        "time",
+        "vehicle"
+      ]
+    },
+    "walk": {
+      "pos": "verb",
+      "subj": [
+        "animate"
+      ]
+    },
+    "want": {
+      "pos": "verb",
+      "subj": [
+        "animate"
+      ],
+      "obj": [
+        "concrete"
+      ]
+    },
+    "wash": {
+      "pos": "verb",
+      "obj": [
+        "animal",
+        "food",
+        "object"
+      ],
+      "subj": [
+        "human"
+      ]
+    },
+    "watch": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "object",
+        "portable"
+      ]
+    },
+    "wear": {
+      "pos": "verb",
+      "obj": [
+        "clothing"
+      ],
+      "subj": [
+        "human"
+      ]
+    },
+    "week": {
+      "pos": "noun",
+      "tags": [
+        "time"
+      ]
+    },
     "white": {
       "pos": "adj",
       "mod": [
@@ -235,25 +2321,184 @@
         "food",
         "object"
       ]
+    },
+    "window": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "object",
+        "openable"
+      ]
+    },
+    "wine": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "drink"
+      ]
+    },
+    "winter": {
+      "pos": "noun",
+      "tags": [
+        "time"
+      ]
+    },
+    "wolf": {
+      "pos": "noun",
+      "tags": [
+        "animal",
+        "animate",
+        "concrete"
+      ]
+    },
+    "woman": {
+      "pos": "noun",
+      "tags": [
+        "animate",
+        "concrete",
+        "human",
+        "person"
+      ]
+    },
+    "work": {
+      "pos": "verb",
+      "subj": [
+        "human"
+      ]
+    },
+    "write": {
+      "pos": "verb",
+      "subj": [
+        "human"
+      ],
+      "obj": [
+        "readable"
+      ]
+    },
+    "year": {
+      "pos": "noun",
+      "tags": [
+        "time"
+      ]
+    },
+    "yellow": {
+      "pos": "adj",
+      "mod": [
+        "fruit",
+        "object",
+        "plant"
+      ]
+    },
+    "young": {
+      "pos": "adj",
+      "mod": [
+        "animate"
+      ]
     }
   },
   "words": {
     "it": {
+      "airport": {
+        "lemma": "aeroporto",
+        "gender": "m"
+      },
+      "angry": {
+        "lemma": "arrabbiato",
+        "adjPosition": "post"
+      },
+      "ant": {
+        "lemma": "formica",
+        "gender": "f"
+      },
       "apple": {
         "lemma": "mela",
         "gender": "f"
+      },
+      "arrive": {
+        "lemma": "arrivare"
+      },
+      "baby": {
+        "lemma": "neonato",
+        "gender": "m"
       },
       "backpack": {
         "lemma": "zaino",
         "gender": "m"
       },
+      "bag": {
+        "lemma": "borsa",
+        "gender": "f"
+      },
+      "ball": {
+        "lemma": "palla",
+        "gender": "f"
+      },
+      "banana": {
+        "lemma": "banana",
+        "gender": "f"
+      },
+      "beach": {
+        "lemma": "spiaggia",
+        "gender": "f",
+        "forms": {
+          "plural": "spiagge"
+        }
+      },
+      "bear": {
+        "lemma": "orso",
+        "gender": "m"
+      },
+      "bed": {
+        "lemma": "letto",
+        "gender": "m"
+      },
+      "bee": {
+        "lemma": "ape",
+        "gender": "f"
+      },
+      "beer": {
+        "lemma": "birra",
+        "gender": "f"
+      },
+      "bicycle": {
+        "lemma": "bicicletta",
+        "gender": "f"
+      },
       "big": {
         "lemma": "grande",
         "adjPosition": "both"
       },
+      "bird": {
+        "lemma": "uccello",
+        "gender": "m"
+      },
+      "black": {
+        "lemma": "nero",
+        "adjPosition": "post"
+      },
+      "blue": {
+        "lemma": "blu",
+        "adjPosition": "post"
+      },
+      "boat": {
+        "lemma": "barca",
+        "gender": "f"
+      },
       "book": {
         "lemma": "libro",
         "gender": "m"
+      },
+      "boot": {
+        "lemma": "stivale",
+        "gender": "m"
+      },
+      "bottle": {
+        "lemma": "bottiglia",
+        "gender": "f"
+      },
+      "box": {
+        "lemma": "scatola",
+        "gender": "f"
       },
       "boy": {
         "lemma": "ragazzo",
@@ -263,28 +2508,302 @@
         "lemma": "pane",
         "gender": "m"
       },
+      "break": {
+        "lemma": "rompere"
+      },
+      "bridge": {
+        "lemma": "ponte",
+        "gender": "m"
+      },
+      "broken": {
+        "lemma": "rotto",
+        "adjPosition": "post"
+      },
+      "brother": {
+        "lemma": "fratello",
+        "gender": "m"
+      },
+      "brown": {
+        "lemma": "marrone",
+        "adjPosition": "post"
+      },
+      "bus": {
+        "lemma": "autobus",
+        "gender": "m"
+      },
+      "butterfly": {
+        "lemma": "farfalla",
+        "gender": "f"
+      },
+      "buy": {
+        "lemma": "comprare"
+      },
+      "cake": {
+        "lemma": "torta",
+        "gender": "f"
+      },
+      "call": {
+        "lemma": "chiamare"
+      },
+      "candy": {
+        "lemma": "caramella",
+        "gender": "f"
+      },
+      "car": {
+        "lemma": "macchina",
+        "gender": "f"
+      },
+      "carrot": {
+        "lemma": "carota",
+        "gender": "f"
+      },
+      "carry": {
+        "lemma": "portare"
+      },
       "cat": {
         "lemma": "gatto",
         "gender": "m"
+      },
+      "chair": {
+        "lemma": "sedia",
+        "gender": "f"
+      },
+      "cheap": {
+        "lemma": "economico",
+        "adjPosition": "post",
+        "forms": {
+          "m.pl": "economici"
+        }
       },
       "cheese": {
         "lemma": "formaggio",
         "gender": "m"
       },
+      "cherry": {
+        "lemma": "ciliegia",
+        "gender": "f"
+      },
+      "child": {
+        "lemma": "bambino",
+        "gender": "m"
+      },
+      "choose": {
+        "lemma": "scegliere",
+        "forms": {
+          "present.1pl": "scegliamo",
+          "present.1sg": "scelgo",
+          "present.2pl": "scegliete",
+          "present.2sg": "scegli",
+          "present.3pl": "scelgono",
+          "present.3sg": "sceglie"
+        }
+      },
+      "church": {
+        "lemma": "chiesa",
+        "gender": "f"
+      },
       "city": {
         "lemma": "città",
         "gender": "f"
+      },
+      "clean": {
+        "lemma": "pulire",
+        "inflClass": "isc"
+      },
+      "clean_adj": {
+        "lemma": "pulito",
+        "adjPosition": "post"
+      },
+      "close": {
+        "lemma": "chiudere"
+      },
+      "coffee": {
+        "lemma": "caffè",
+        "gender": "m"
+      },
+      "cold": {
+        "lemma": "freddo",
+        "adjPosition": "post"
+      },
+      "comfortable": {
+        "lemma": "comodo",
+        "adjPosition": "post"
+      },
+      "comic": {
+        "lemma": "fumetto",
+        "gender": "m"
+      },
+      "computer": {
+        "lemma": "computer",
+        "gender": "m"
+      },
+      "cook": {
+        "lemma": "cucinare"
+      },
+      "cook_person": {
+        "lemma": "cuoco",
+        "gender": "m"
+      },
+      "cookie": {
+        "lemma": "biscotto",
+        "gender": "m"
+      },
+      "cow": {
+        "lemma": "mucca",
+        "gender": "f"
+      },
+      "cry": {
+        "lemma": "piangere"
+      },
+      "cup": {
+        "lemma": "tazza",
+        "gender": "f"
+      },
+      "dance": {
+        "lemma": "ballare"
+      },
+      "dangerous": {
+        "lemma": "pericoloso",
+        "adjPosition": "post"
+      },
+      "dark": {
+        "lemma": "scuro",
+        "adjPosition": "post"
+      },
+      "daughter": {
+        "lemma": "figlia",
+        "gender": "f"
+      },
+      "day": {
+        "lemma": "giorno",
+        "gender": "m"
+      },
+      "delicious": {
+        "lemma": "delizioso",
+        "adjPosition": "post"
+      },
+      "dirty": {
+        "lemma": "sporco",
+        "adjPosition": "post"
+      },
+      "doctor": {
+        "lemma": "medico",
+        "gender": "m",
+        "forms": {
+          "plural": "medici"
+        }
       },
       "dog": {
         "lemma": "cane",
         "gender": "m"
       },
+      "door": {
+        "lemma": "porta",
+        "gender": "f"
+      },
+      "draw": {
+        "lemma": "disegnare"
+      },
+      "dress": {
+        "lemma": "vestito",
+        "gender": "m"
+      },
+      "drink": {
+        "lemma": "bere",
+        "forms": {
+          "present.1pl": "beviamo",
+          "present.1sg": "bevo",
+          "present.2pl": "bevete",
+          "present.2sg": "bevi",
+          "present.3pl": "bevono",
+          "present.3sg": "beve"
+        }
+      },
+      "drive": {
+        "lemma": "guidare"
+      },
+      "drum": {
+        "lemma": "tamburo",
+        "gender": "m"
+      },
+      "duck": {
+        "lemma": "anatra",
+        "gender": "f"
+      },
       "eat": {
         "lemma": "mangiare"
+      },
+      "elegant": {
+        "lemma": "elegante",
+        "adjPosition": "post"
+      },
+      "elephant": {
+        "lemma": "elefante",
+        "gender": "m"
+      },
+      "empty": {
+        "lemma": "vuoto",
+        "adjPosition": "post"
+      },
+      "evening": {
+        "lemma": "sera",
+        "gender": "f"
+      },
+      "expensive": {
+        "lemma": "costoso",
+        "adjPosition": "post"
+      },
+      "famous": {
+        "lemma": "famoso",
+        "adjPosition": "post"
+      },
+      "farmer": {
+        "lemma": "contadino",
+        "gender": "m"
+      },
+      "fast": {
+        "lemma": "veloce",
+        "adjPosition": "post"
+      },
+      "father": {
+        "lemma": "padre",
+        "gender": "m"
+      },
+      "find": {
+        "lemma": "trovare"
       },
       "finish": {
         "lemma": "finire",
         "inflClass": "isc"
+      },
+      "fish": {
+        "lemma": "pesce",
+        "gender": "m"
+      },
+      "flower": {
+        "lemma": "fiore",
+        "gender": "m"
+      },
+      "fly": {
+        "lemma": "volare"
+      },
+      "follow": {
+        "lemma": "seguire"
+      },
+      "forest": {
+        "lemma": "bosco",
+        "gender": "m"
+      },
+      "forget": {
+        "lemma": "dimenticare"
+      },
+      "fox": {
+        "lemma": "volpe",
+        "gender": "f"
+      },
+      "fresh": {
+        "lemma": "fresco",
+        "adjPosition": "post"
       },
       "friend": {
         "lemma": "amico",
@@ -293,13 +2812,59 @@
           "plural": "amici"
         }
       },
+      "full": {
+        "lemma": "pieno",
+        "adjPosition": "post"
+      },
+      "funny": {
+        "lemma": "divertente",
+        "adjPosition": "post"
+      },
+      "garden": {
+        "lemma": "giardino",
+        "gender": "m"
+      },
+      "gift": {
+        "lemma": "regalo",
+        "gender": "m"
+      },
       "girl": {
         "lemma": "ragazza",
+        "gender": "f"
+      },
+      "glass": {
+        "lemma": "bicchiere",
+        "gender": "m"
+      },
+      "grandfather": {
+        "lemma": "nonno",
+        "gender": "m"
+      },
+      "grandmother": {
+        "lemma": "nonna",
+        "gender": "f"
+      },
+      "green": {
+        "lemma": "verde",
+        "adjPosition": "post"
+      },
+      "grow": {
+        "lemma": "crescere"
+      },
+      "guitar": {
+        "lemma": "chitarra",
         "gender": "f"
       },
       "happy": {
         "lemma": "felice",
         "adjPosition": "post"
+      },
+      "hat": {
+        "lemma": "cappello",
+        "gender": "m"
+      },
+      "hate": {
+        "lemma": "odiare"
       },
       "have": {
         "lemma": "avere",
@@ -311,9 +2876,39 @@
           "present.3sg": "ha"
         }
       },
+      "hear": {
+        "lemma": "sentire"
+      },
+      "heavy": {
+        "lemma": "pesante",
+        "adjPosition": "post"
+      },
+      "help": {
+        "lemma": "aiutare"
+      },
+      "hen": {
+        "lemma": "gallina",
+        "gender": "f"
+      },
       "honest": {
         "lemma": "onesto",
         "adjPosition": "post"
+      },
+      "horse": {
+        "lemma": "cavallo",
+        "gender": "m"
+      },
+      "hospital": {
+        "lemma": "ospedale",
+        "gender": "m"
+      },
+      "hot": {
+        "lemma": "caldo",
+        "adjPosition": "post"
+      },
+      "hotel": {
+        "lemma": "albergo",
+        "gender": "m"
       },
       "hour": {
         "lemma": "ora",
@@ -323,6 +2918,98 @@
         "lemma": "casa",
         "gender": "f"
       },
+      "huge": {
+        "lemma": "enorme",
+        "adjPosition": "post"
+      },
+      "hungry": {
+        "lemma": "affamato",
+        "adjPosition": "post"
+      },
+      "ice_cream": {
+        "lemma": "gelato",
+        "gender": "m"
+      },
+      "intelligent": {
+        "lemma": "intelligente",
+        "adjPosition": "post"
+      },
+      "interesting": {
+        "lemma": "interessante",
+        "adjPosition": "post"
+      },
+      "island": {
+        "lemma": "isola",
+        "gender": "f"
+      },
+      "jacket": {
+        "lemma": "giacca",
+        "gender": "f"
+      },
+      "juice": {
+        "lemma": "succo",
+        "gender": "m"
+      },
+      "jump": {
+        "lemma": "saltare"
+      },
+      "key": {
+        "lemma": "chiave",
+        "gender": "f"
+      },
+      "kind": {
+        "lemma": "gentile",
+        "adjPosition": "post"
+      },
+      "kitchen": {
+        "lemma": "cucina",
+        "gender": "f"
+      },
+      "knife": {
+        "lemma": "coltello",
+        "gender": "m"
+      },
+      "know": {
+        "lemma": "conoscere"
+      },
+      "lake": {
+        "lemma": "lago",
+        "gender": "m"
+      },
+      "lamp": {
+        "lemma": "lampada",
+        "gender": "f"
+      },
+      "laugh": {
+        "lemma": "ridere"
+      },
+      "lazy": {
+        "lemma": "pigro",
+        "adjPosition": "post"
+      },
+      "leave": {
+        "lemma": "partire"
+      },
+      "lemon": {
+        "lemma": "limone",
+        "gender": "m"
+      },
+      "letter": {
+        "lemma": "lettera",
+        "gender": "f"
+      },
+      "library": {
+        "lemma": "biblioteca",
+        "gender": "f"
+      },
+      "light": {
+        "lemma": "leggero",
+        "adjPosition": "post"
+      },
+      "lion": {
+        "lemma": "leone",
+        "gender": "m"
+      },
       "long": {
         "lemma": "lungo",
         "adjPosition": "post"
@@ -330,9 +3017,246 @@
       "look_for": {
         "lemma": "cercare"
       },
+      "lose": {
+        "lemma": "perdere"
+      },
+      "love": {
+        "lemma": "amare"
+      },
+      "magazine": {
+        "lemma": "rivista",
+        "gender": "f"
+      },
+      "man": {
+        "lemma": "uomo",
+        "gender": "m",
+        "forms": {
+          "plural": "uomini"
+        }
+      },
+      "map": {
+        "lemma": "mappa",
+        "gender": "f"
+      },
+      "market": {
+        "lemma": "mercato",
+        "gender": "m"
+      },
+      "meet": {
+        "lemma": "incontrare"
+      },
+      "melon": {
+        "lemma": "melone",
+        "gender": "m"
+      },
+      "menu": {
+        "lemma": "menu",
+        "gender": "m"
+      },
+      "message": {
+        "lemma": "messaggio",
+        "gender": "m"
+      },
+      "minute": {
+        "lemma": "minuto",
+        "gender": "m"
+      },
+      "mirror": {
+        "lemma": "specchio",
+        "gender": "m"
+      },
+      "modern": {
+        "lemma": "moderno",
+        "adjPosition": "post"
+      },
+      "monkey": {
+        "lemma": "scimmia",
+        "gender": "f"
+      },
+      "month": {
+        "lemma": "mese",
+        "gender": "m"
+      },
+      "morning": {
+        "lemma": "mattina",
+        "gender": "f"
+      },
+      "mother": {
+        "lemma": "madre",
+        "gender": "f"
+      },
+      "mountain": {
+        "lemma": "montagna",
+        "gender": "f"
+      },
+      "mouse": {
+        "lemma": "topo",
+        "gender": "m"
+      },
+      "museum": {
+        "lemma": "museo",
+        "gender": "m"
+      },
+      "new": {
+        "lemma": "nuovo",
+        "adjPosition": "both"
+      },
+      "newspaper": {
+        "lemma": "giornale",
+        "gender": "m"
+      },
+      "night": {
+        "lemma": "notte",
+        "gender": "f"
+      },
+      "noisy": {
+        "lemma": "rumoroso",
+        "adjPosition": "post"
+      },
+      "notebook": {
+        "lemma": "quaderno",
+        "gender": "m"
+      },
+      "novel": {
+        "lemma": "romanzo",
+        "gender": "m"
+      },
+      "office": {
+        "lemma": "ufficio",
+        "gender": "m"
+      },
       "old": {
         "lemma": "vecchio",
         "adjPosition": "pre"
+      },
+      "onion": {
+        "lemma": "cipolla",
+        "gender": "f"
+      },
+      "open": {
+        "lemma": "aprire"
+      },
+      "orange": {
+        "lemma": "arancia",
+        "gender": "f",
+        "forms": {
+          "plural": "arance"
+        }
+      },
+      "order": {
+        "lemma": "ordinare"
+      },
+      "paint": {
+        "lemma": "dipingere"
+      },
+      "painting": {
+        "lemma": "quadro",
+        "gender": "m"
+      },
+      "park": {
+        "lemma": "parco",
+        "gender": "m"
+      },
+      "peach": {
+        "lemma": "pesca",
+        "gender": "f"
+      },
+      "pear": {
+        "lemma": "pera",
+        "gender": "f"
+      },
+      "pen": {
+        "lemma": "penna",
+        "gender": "f"
+      },
+      "pencil": {
+        "lemma": "matita",
+        "gender": "f"
+      },
+      "perfect": {
+        "lemma": "perfetto",
+        "adjPosition": "post"
+      },
+      "phone": {
+        "lemma": "telefono",
+        "gender": "m"
+      },
+      "photograph": {
+        "lemma": "fotografare"
+      },
+      "piano": {
+        "lemma": "pianoforte",
+        "gender": "m"
+      },
+      "pig": {
+        "lemma": "maiale",
+        "gender": "m"
+      },
+      "pink": {
+        "lemma": "rosa",
+        "adjPosition": "post"
+      },
+      "pizza": {
+        "lemma": "pizza",
+        "gender": "f"
+      },
+      "plane": {
+        "lemma": "aereo",
+        "gender": "m"
+      },
+      "plant": {
+        "lemma": "pianta",
+        "gender": "f"
+      },
+      "plate": {
+        "lemma": "piatto",
+        "gender": "m"
+      },
+      "play": {
+        "lemma": "giocare"
+      },
+      "play_instrument": {
+        "lemma": "suonare"
+      },
+      "poem": {
+        "lemma": "poesia",
+        "gender": "f"
+      },
+      "police_officer": {
+        "lemma": "poliziotto",
+        "gender": "m"
+      },
+      "poor": {
+        "lemma": "povero",
+        "adjPosition": "post"
+      },
+      "potato": {
+        "lemma": "patata",
+        "gender": "f"
+      },
+      "prefer": {
+        "lemma": "preferire",
+        "inflClass": "isc"
+      },
+      "pretty": {
+        "lemma": "carino",
+        "adjPosition": "post"
+      },
+      "prince": {
+        "lemma": "principe",
+        "gender": "m"
+      },
+      "queen": {
+        "lemma": "regina",
+        "gender": "f"
+      },
+      "quiet": {
+        "lemma": "tranquillo",
+        "adjPosition": "post"
+      },
+      "rabbit": {
+        "lemma": "coniglio",
+        "gender": "m"
       },
       "read": {
         "lemma": "leggere"
@@ -341,17 +3265,231 @@
         "lemma": "rosso",
         "adjPosition": "post"
       },
+      "remember": {
+        "lemma": "ricordare"
+      },
+      "repair": {
+        "lemma": "riparare"
+      },
+      "restaurant": {
+        "lemma": "ristorante",
+        "gender": "m"
+      },
+      "rich": {
+        "lemma": "ricco",
+        "adjPosition": "post"
+      },
+      "ripe": {
+        "lemma": "maturo",
+        "adjPosition": "post"
+      },
+      "river": {
+        "lemma": "fiume",
+        "gender": "m"
+      },
       "run": {
         "lemma": "correre"
+      },
+      "sad": {
+        "lemma": "triste",
+        "adjPosition": "post"
+      },
+      "salad": {
+        "lemma": "insalata",
+        "gender": "f"
+      },
+      "sandwich": {
+        "lemma": "panino",
+        "gender": "m"
+      },
+      "school": {
+        "lemma": "scuola",
+        "gender": "f"
       },
       "see": {
         "lemma": "vedere"
       },
+      "sell": {
+        "lemma": "vendere"
+      },
+      "sheep": {
+        "lemma": "pecora",
+        "gender": "f"
+      },
+      "shirt": {
+        "lemma": "camicia",
+        "gender": "f"
+      },
+      "shoe": {
+        "lemma": "scarpa",
+        "gender": "f"
+      },
+      "shop": {
+        "lemma": "negozio",
+        "gender": "m"
+      },
+      "short": {
+        "lemma": "breve",
+        "adjPosition": "post"
+      },
+      "shout": {
+        "lemma": "gridare"
+      },
+      "sing": {
+        "lemma": "cantare"
+      },
+      "sister": {
+        "lemma": "sorella",
+        "gender": "f"
+      },
       "sleep": {
         "lemma": "dormire"
       },
+      "slow": {
+        "lemma": "lento",
+        "adjPosition": "post"
+      },
+      "small": {
+        "lemma": "piccolo",
+        "adjPosition": "both"
+      },
+      "smile": {
+        "lemma": "sorridere"
+      },
+      "snake": {
+        "lemma": "serpente",
+        "gender": "m"
+      },
+      "sofa": {
+        "lemma": "divano",
+        "gender": "m"
+      },
+      "soft": {
+        "lemma": "morbido",
+        "adjPosition": "post"
+      },
+      "son": {
+        "lemma": "figlio",
+        "gender": "m"
+      },
+      "soup": {
+        "lemma": "minestra",
+        "gender": "f"
+      },
+      "spoon": {
+        "lemma": "cucchiaio",
+        "gender": "m"
+      },
+      "square": {
+        "lemma": "piazza",
+        "gender": "f"
+      },
+      "squirrel": {
+        "lemma": "scoiattolo",
+        "gender": "m"
+      },
+      "station": {
+        "lemma": "stazione",
+        "gender": "f"
+      },
+      "strange": {
+        "lemma": "strano",
+        "adjPosition": "post"
+      },
+      "strawberry": {
+        "lemma": "fragola",
+        "gender": "f"
+      },
+      "street": {
+        "lemma": "strada",
+        "gender": "f"
+      },
+      "strong": {
+        "lemma": "forte",
+        "adjPosition": "post"
+      },
       "student": {
         "lemma": "studente",
+        "gender": "m"
+      },
+      "study": {
+        "lemma": "studiare"
+      },
+      "suitcase": {
+        "lemma": "valigia",
+        "gender": "f"
+      },
+      "summer": {
+        "lemma": "estate",
+        "gender": "f"
+      },
+      "sweet": {
+        "lemma": "dolce",
+        "adjPosition": "post"
+      },
+      "swim": {
+        "lemma": "nuotare"
+      },
+      "table": {
+        "lemma": "tavolo",
+        "gender": "m"
+      },
+      "take": {
+        "lemma": "prendere"
+      },
+      "tall": {
+        "lemma": "alto",
+        "adjPosition": "post"
+      },
+      "tea": {
+        "lemma": "tè",
+        "gender": "m"
+      },
+      "teacher": {
+        "lemma": "insegnante",
+        "gender": "m"
+      },
+      "tiger": {
+        "lemma": "tigre",
+        "gender": "f"
+      },
+      "tired": {
+        "lemma": "stanco",
+        "adjPosition": "post"
+      },
+      "tomato": {
+        "lemma": "pomodoro",
+        "gender": "m"
+      },
+      "touch": {
+        "lemma": "toccare"
+      },
+      "tourist": {
+        "lemma": "turista",
+        "gender": "m"
+      },
+      "toy": {
+        "lemma": "giocattolo",
+        "gender": "m"
+      },
+      "train": {
+        "lemma": "treno",
+        "gender": "m"
+      },
+      "tree": {
+        "lemma": "albero",
+        "gender": "m"
+      },
+      "truck": {
+        "lemma": "camion",
+        "gender": "m"
+      },
+      "ugly": {
+        "lemma": "brutto",
+        "adjPosition": "post"
+      },
+      "umbrella": {
+        "lemma": "ombrello",
         "gender": "m"
       },
       "uncle": {
@@ -361,23 +3499,173 @@
           "plural": "zii"
         }
       },
+      "use": {
+        "lemma": "usare"
+      },
+      "useful": {
+        "lemma": "utile",
+        "adjPosition": "post"
+      },
+      "village": {
+        "lemma": "villaggio",
+        "gender": "m"
+      },
+      "violin": {
+        "lemma": "violino",
+        "gender": "m"
+      },
+      "visit": {
+        "lemma": "visitare"
+      },
+      "wait_for": {
+        "lemma": "aspettare"
+      },
+      "walk": {
+        "lemma": "camminare"
+      },
+      "want": {
+        "lemma": "volere",
+        "forms": {
+          "present.1pl": "vogliamo",
+          "present.1sg": "voglio",
+          "present.2pl": "volete",
+          "present.2sg": "vuoi",
+          "present.3pl": "vogliono",
+          "present.3sg": "vuole"
+        }
+      },
+      "wash": {
+        "lemma": "lavare"
+      },
+      "watch": {
+        "lemma": "orologio",
+        "gender": "m"
+      },
+      "wear": {
+        "lemma": "indossare"
+      },
+      "week": {
+        "lemma": "settimana",
+        "gender": "f"
+      },
       "white": {
         "lemma": "bianco",
         "adjPosition": "post"
+      },
+      "window": {
+        "lemma": "finestra",
+        "gender": "f"
+      },
+      "wine": {
+        "lemma": "vino",
+        "gender": "m"
+      },
+      "winter": {
+        "lemma": "inverno",
+        "gender": "m"
+      },
+      "wolf": {
+        "lemma": "lupo",
+        "gender": "m"
+      },
+      "woman": {
+        "lemma": "donna",
+        "gender": "f"
+      },
+      "work": {
+        "lemma": "lavorare"
+      },
+      "write": {
+        "lemma": "scrivere"
+      },
+      "year": {
+        "lemma": "anno",
+        "gender": "m"
+      },
+      "yellow": {
+        "lemma": "giallo",
+        "adjPosition": "post"
+      },
+      "young": {
+        "lemma": "giovane",
+        "adjPosition": "both"
       }
     },
     "en": {
+      "airport": {
+        "lemma": "airport"
+      },
+      "angry": {
+        "lemma": "angry"
+      },
+      "ant": {
+        "lemma": "ant"
+      },
       "apple": {
         "lemma": "apple"
+      },
+      "arrive": {
+        "lemma": "arrive"
+      },
+      "baby": {
+        "lemma": "baby"
       },
       "backpack": {
         "lemma": "backpack"
       },
+      "bag": {
+        "lemma": "bag"
+      },
+      "ball": {
+        "lemma": "ball"
+      },
+      "banana": {
+        "lemma": "banana"
+      },
+      "beach": {
+        "lemma": "beach"
+      },
+      "bear": {
+        "lemma": "bear"
+      },
+      "bed": {
+        "lemma": "bed"
+      },
+      "bee": {
+        "lemma": "bee"
+      },
+      "beer": {
+        "lemma": "beer"
+      },
+      "bicycle": {
+        "lemma": "bicycle"
+      },
       "big": {
         "lemma": "big"
       },
+      "bird": {
+        "lemma": "bird"
+      },
+      "black": {
+        "lemma": "black"
+      },
+      "blue": {
+        "lemma": "blue"
+      },
+      "boat": {
+        "lemma": "boat"
+      },
       "book": {
         "lemma": "book"
+      },
+      "boot": {
+        "lemma": "boot"
+      },
+      "bottle": {
+        "lemma": "bottle"
+      },
+      "box": {
+        "lemma": "box"
       },
       "boy": {
         "lemma": "boy"
@@ -385,32 +3673,275 @@
       "bread": {
         "lemma": "bread"
       },
+      "break": {
+        "lemma": "break"
+      },
+      "bridge": {
+        "lemma": "bridge"
+      },
+      "broken": {
+        "lemma": "broken"
+      },
+      "brother": {
+        "lemma": "brother"
+      },
+      "brown": {
+        "lemma": "brown"
+      },
+      "bus": {
+        "lemma": "bus"
+      },
+      "butterfly": {
+        "lemma": "butterfly"
+      },
+      "buy": {
+        "lemma": "buy"
+      },
+      "cake": {
+        "lemma": "cake"
+      },
+      "call": {
+        "lemma": "call"
+      },
+      "candy": {
+        "lemma": "candy"
+      },
+      "car": {
+        "lemma": "car"
+      },
+      "carrot": {
+        "lemma": "carrot"
+      },
+      "carry": {
+        "lemma": "carry"
+      },
       "cat": {
         "lemma": "cat"
+      },
+      "chair": {
+        "lemma": "chair"
+      },
+      "cheap": {
+        "lemma": "cheap"
       },
       "cheese": {
         "lemma": "cheese"
       },
+      "cherry": {
+        "lemma": "cherry"
+      },
+      "child": {
+        "lemma": "child",
+        "forms": {
+          "plural": "children"
+        }
+      },
+      "choose": {
+        "lemma": "choose"
+      },
+      "church": {
+        "lemma": "church"
+      },
       "city": {
         "lemma": "city"
+      },
+      "clean": {
+        "lemma": "clean"
+      },
+      "clean_adj": {
+        "lemma": "clean"
+      },
+      "close": {
+        "lemma": "close"
+      },
+      "coffee": {
+        "lemma": "coffee"
+      },
+      "cold": {
+        "lemma": "cold"
+      },
+      "comfortable": {
+        "lemma": "comfortable"
+      },
+      "comic": {
+        "lemma": "comic"
+      },
+      "computer": {
+        "lemma": "computer"
+      },
+      "cook": {
+        "lemma": "cook"
+      },
+      "cook_person": {
+        "lemma": "cook"
+      },
+      "cookie": {
+        "lemma": "cookie"
+      },
+      "cow": {
+        "lemma": "cow"
+      },
+      "cry": {
+        "lemma": "cry"
+      },
+      "cup": {
+        "lemma": "cup"
+      },
+      "dance": {
+        "lemma": "dance"
+      },
+      "dangerous": {
+        "lemma": "dangerous"
+      },
+      "dark": {
+        "lemma": "dark"
+      },
+      "daughter": {
+        "lemma": "daughter"
+      },
+      "day": {
+        "lemma": "day"
+      },
+      "delicious": {
+        "lemma": "delicious"
+      },
+      "dirty": {
+        "lemma": "dirty"
+      },
+      "doctor": {
+        "lemma": "doctor"
       },
       "dog": {
         "lemma": "dog"
       },
+      "door": {
+        "lemma": "door"
+      },
+      "draw": {
+        "lemma": "draw"
+      },
+      "dress": {
+        "lemma": "dress"
+      },
+      "drink": {
+        "lemma": "drink"
+      },
+      "drive": {
+        "lemma": "drive"
+      },
+      "drum": {
+        "lemma": "drum"
+      },
+      "duck": {
+        "lemma": "duck"
+      },
       "eat": {
         "lemma": "eat"
+      },
+      "elegant": {
+        "lemma": "elegant"
+      },
+      "elephant": {
+        "lemma": "elephant"
+      },
+      "empty": {
+        "lemma": "empty"
+      },
+      "evening": {
+        "lemma": "evening"
+      },
+      "expensive": {
+        "lemma": "expensive"
+      },
+      "famous": {
+        "lemma": "famous"
+      },
+      "farmer": {
+        "lemma": "farmer"
+      },
+      "fast": {
+        "lemma": "fast"
+      },
+      "father": {
+        "lemma": "father"
+      },
+      "find": {
+        "lemma": "find"
       },
       "finish": {
         "lemma": "finish"
       },
+      "fish": {
+        "lemma": "fish",
+        "forms": {
+          "plural": "fish"
+        }
+      },
+      "flower": {
+        "lemma": "flower"
+      },
+      "fly": {
+        "lemma": "fly"
+      },
+      "follow": {
+        "lemma": "follow"
+      },
+      "forest": {
+        "lemma": "forest"
+      },
+      "forget": {
+        "lemma": "forget"
+      },
+      "fox": {
+        "lemma": "fox"
+      },
+      "fresh": {
+        "lemma": "fresh"
+      },
       "friend": {
         "lemma": "friend"
+      },
+      "full": {
+        "lemma": "full"
+      },
+      "funny": {
+        "lemma": "funny"
+      },
+      "garden": {
+        "lemma": "garden"
+      },
+      "gift": {
+        "lemma": "gift"
       },
       "girl": {
         "lemma": "girl"
       },
+      "glass": {
+        "lemma": "glass"
+      },
+      "grandfather": {
+        "lemma": "grandfather"
+      },
+      "grandmother": {
+        "lemma": "grandmother"
+      },
+      "green": {
+        "lemma": "green"
+      },
+      "grow": {
+        "lemma": "grow"
+      },
+      "guitar": {
+        "lemma": "guitar"
+      },
       "happy": {
         "lemma": "happy"
+      },
+      "hat": {
+        "lemma": "hat"
+      },
+      "hate": {
+        "lemma": "hate"
       },
       "have": {
         "lemma": "have",
@@ -418,11 +3949,35 @@
           "present.3sg": "has"
         }
       },
+      "hear": {
+        "lemma": "hear"
+      },
+      "heavy": {
+        "lemma": "heavy"
+      },
+      "help": {
+        "lemma": "help"
+      },
+      "hen": {
+        "lemma": "hen"
+      },
       "honest": {
         "lemma": "honest",
         "forms": {
           "indef": "an"
         }
+      },
+      "horse": {
+        "lemma": "horse"
+      },
+      "hospital": {
+        "lemma": "hospital"
+      },
+      "hot": {
+        "lemma": "hot"
+      },
+      "hotel": {
+        "lemma": "hotel"
       },
       "hour": {
         "lemma": "hour",
@@ -433,6 +3988,81 @@
       "house": {
         "lemma": "house"
       },
+      "huge": {
+        "lemma": "huge"
+      },
+      "hungry": {
+        "lemma": "hungry"
+      },
+      "ice_cream": {
+        "lemma": "ice cream"
+      },
+      "intelligent": {
+        "lemma": "intelligent"
+      },
+      "interesting": {
+        "lemma": "interesting"
+      },
+      "island": {
+        "lemma": "island"
+      },
+      "jacket": {
+        "lemma": "jacket"
+      },
+      "juice": {
+        "lemma": "juice"
+      },
+      "jump": {
+        "lemma": "jump"
+      },
+      "key": {
+        "lemma": "key"
+      },
+      "kind": {
+        "lemma": "kind"
+      },
+      "kitchen": {
+        "lemma": "kitchen"
+      },
+      "knife": {
+        "lemma": "knife",
+        "forms": {
+          "plural": "knives"
+        }
+      },
+      "know": {
+        "lemma": "know"
+      },
+      "lake": {
+        "lemma": "lake"
+      },
+      "lamp": {
+        "lemma": "lamp"
+      },
+      "laugh": {
+        "lemma": "laugh"
+      },
+      "lazy": {
+        "lemma": "lazy"
+      },
+      "leave": {
+        "lemma": "leave"
+      },
+      "lemon": {
+        "lemma": "lemon"
+      },
+      "letter": {
+        "lemma": "letter"
+      },
+      "library": {
+        "lemma": "library"
+      },
+      "light": {
+        "lemma": "light"
+      },
+      "lion": {
+        "lemma": "lion"
+      },
       "long": {
         "lemma": "long"
       },
@@ -442,8 +4072,197 @@
           "present.3sg": "looks for"
         }
       },
+      "lose": {
+        "lemma": "lose"
+      },
+      "love": {
+        "lemma": "love"
+      },
+      "magazine": {
+        "lemma": "magazine"
+      },
+      "man": {
+        "lemma": "man",
+        "forms": {
+          "plural": "men"
+        }
+      },
+      "map": {
+        "lemma": "map"
+      },
+      "market": {
+        "lemma": "market"
+      },
+      "meet": {
+        "lemma": "meet"
+      },
+      "melon": {
+        "lemma": "melon"
+      },
+      "menu": {
+        "lemma": "menu"
+      },
+      "message": {
+        "lemma": "message"
+      },
+      "minute": {
+        "lemma": "minute"
+      },
+      "mirror": {
+        "lemma": "mirror"
+      },
+      "modern": {
+        "lemma": "modern"
+      },
+      "monkey": {
+        "lemma": "monkey"
+      },
+      "month": {
+        "lemma": "month"
+      },
+      "morning": {
+        "lemma": "morning"
+      },
+      "mother": {
+        "lemma": "mother"
+      },
+      "mountain": {
+        "lemma": "mountain"
+      },
+      "mouse": {
+        "lemma": "mouse",
+        "forms": {
+          "plural": "mice"
+        }
+      },
+      "museum": {
+        "lemma": "museum"
+      },
+      "new": {
+        "lemma": "new"
+      },
+      "newspaper": {
+        "lemma": "newspaper"
+      },
+      "night": {
+        "lemma": "night"
+      },
+      "noisy": {
+        "lemma": "noisy"
+      },
+      "notebook": {
+        "lemma": "notebook"
+      },
+      "novel": {
+        "lemma": "novel"
+      },
+      "office": {
+        "lemma": "office"
+      },
       "old": {
         "lemma": "old"
+      },
+      "onion": {
+        "lemma": "onion"
+      },
+      "open": {
+        "lemma": "open"
+      },
+      "orange": {
+        "lemma": "orange"
+      },
+      "order": {
+        "lemma": "order"
+      },
+      "paint": {
+        "lemma": "paint"
+      },
+      "painting": {
+        "lemma": "painting"
+      },
+      "park": {
+        "lemma": "park"
+      },
+      "peach": {
+        "lemma": "peach"
+      },
+      "pear": {
+        "lemma": "pear"
+      },
+      "pen": {
+        "lemma": "pen"
+      },
+      "pencil": {
+        "lemma": "pencil"
+      },
+      "perfect": {
+        "lemma": "perfect"
+      },
+      "phone": {
+        "lemma": "phone"
+      },
+      "photograph": {
+        "lemma": "photograph"
+      },
+      "piano": {
+        "lemma": "piano"
+      },
+      "pig": {
+        "lemma": "pig"
+      },
+      "pink": {
+        "lemma": "pink"
+      },
+      "pizza": {
+        "lemma": "pizza"
+      },
+      "plane": {
+        "lemma": "plane"
+      },
+      "plant": {
+        "lemma": "plant"
+      },
+      "plate": {
+        "lemma": "plate"
+      },
+      "play": {
+        "lemma": "play"
+      },
+      "play_instrument": {
+        "lemma": "play"
+      },
+      "poem": {
+        "lemma": "poem"
+      },
+      "police_officer": {
+        "lemma": "police officer"
+      },
+      "poor": {
+        "lemma": "poor"
+      },
+      "potato": {
+        "lemma": "potato",
+        "forms": {
+          "plural": "potatoes"
+        }
+      },
+      "prefer": {
+        "lemma": "prefer"
+      },
+      "pretty": {
+        "lemma": "pretty"
+      },
+      "prince": {
+        "lemma": "prince"
+      },
+      "queen": {
+        "lemma": "queen"
+      },
+      "quiet": {
+        "lemma": "quiet"
+      },
+      "rabbit": {
+        "lemma": "rabbit"
       },
       "read": {
         "lemma": "read"
@@ -451,27 +4270,307 @@
       "red": {
         "lemma": "red"
       },
+      "remember": {
+        "lemma": "remember"
+      },
+      "repair": {
+        "lemma": "repair"
+      },
+      "restaurant": {
+        "lemma": "restaurant"
+      },
+      "rich": {
+        "lemma": "rich"
+      },
+      "ripe": {
+        "lemma": "ripe"
+      },
+      "river": {
+        "lemma": "river"
+      },
       "run": {
         "lemma": "run"
+      },
+      "sad": {
+        "lemma": "sad"
+      },
+      "salad": {
+        "lemma": "salad"
+      },
+      "sandwich": {
+        "lemma": "sandwich"
+      },
+      "school": {
+        "lemma": "school"
       },
       "see": {
         "lemma": "see"
       },
+      "sell": {
+        "lemma": "sell"
+      },
+      "sheep": {
+        "lemma": "sheep",
+        "forms": {
+          "plural": "sheep"
+        }
+      },
+      "shirt": {
+        "lemma": "shirt"
+      },
+      "shoe": {
+        "lemma": "shoe"
+      },
+      "shop": {
+        "lemma": "shop"
+      },
+      "short": {
+        "lemma": "short"
+      },
+      "shout": {
+        "lemma": "shout"
+      },
+      "sing": {
+        "lemma": "sing"
+      },
+      "sister": {
+        "lemma": "sister"
+      },
       "sleep": {
         "lemma": "sleep"
+      },
+      "slow": {
+        "lemma": "slow"
+      },
+      "small": {
+        "lemma": "small"
+      },
+      "smile": {
+        "lemma": "smile"
+      },
+      "snake": {
+        "lemma": "snake"
+      },
+      "sofa": {
+        "lemma": "sofa"
+      },
+      "soft": {
+        "lemma": "soft"
+      },
+      "son": {
+        "lemma": "son"
+      },
+      "soup": {
+        "lemma": "soup"
+      },
+      "spoon": {
+        "lemma": "spoon"
+      },
+      "square": {
+        "lemma": "square"
+      },
+      "squirrel": {
+        "lemma": "squirrel"
+      },
+      "station": {
+        "lemma": "station"
+      },
+      "strange": {
+        "lemma": "strange"
+      },
+      "strawberry": {
+        "lemma": "strawberry"
+      },
+      "street": {
+        "lemma": "street"
+      },
+      "strong": {
+        "lemma": "strong"
       },
       "student": {
         "lemma": "student"
       },
+      "study": {
+        "lemma": "study"
+      },
+      "suitcase": {
+        "lemma": "suitcase"
+      },
+      "summer": {
+        "lemma": "summer"
+      },
+      "sweet": {
+        "lemma": "sweet"
+      },
+      "swim": {
+        "lemma": "swim"
+      },
+      "table": {
+        "lemma": "table"
+      },
+      "take": {
+        "lemma": "take"
+      },
+      "tall": {
+        "lemma": "tall"
+      },
+      "tea": {
+        "lemma": "tea"
+      },
+      "teacher": {
+        "lemma": "teacher"
+      },
+      "tiger": {
+        "lemma": "tiger"
+      },
+      "tired": {
+        "lemma": "tired"
+      },
+      "tomato": {
+        "lemma": "tomato",
+        "forms": {
+          "plural": "tomatoes"
+        }
+      },
+      "touch": {
+        "lemma": "touch"
+      },
+      "tourist": {
+        "lemma": "tourist"
+      },
+      "toy": {
+        "lemma": "toy"
+      },
+      "train": {
+        "lemma": "train"
+      },
+      "tree": {
+        "lemma": "tree"
+      },
+      "truck": {
+        "lemma": "truck"
+      },
+      "ugly": {
+        "lemma": "ugly"
+      },
+      "umbrella": {
+        "lemma": "umbrella"
+      },
       "uncle": {
         "lemma": "uncle"
       },
+      "use": {
+        "lemma": "use"
+      },
+      "useful": {
+        "lemma": "useful",
+        "forms": {
+          "indef": "a"
+        }
+      },
+      "village": {
+        "lemma": "village"
+      },
+      "violin": {
+        "lemma": "violin"
+      },
+      "visit": {
+        "lemma": "visit"
+      },
+      "wait_for": {
+        "lemma": "wait for",
+        "forms": {
+          "present.3sg": "waits for"
+        }
+      },
+      "walk": {
+        "lemma": "walk"
+      },
+      "want": {
+        "lemma": "want"
+      },
+      "wash": {
+        "lemma": "wash"
+      },
+      "watch": {
+        "lemma": "watch"
+      },
+      "wear": {
+        "lemma": "wear"
+      },
+      "week": {
+        "lemma": "week"
+      },
       "white": {
         "lemma": "white"
+      },
+      "window": {
+        "lemma": "window"
+      },
+      "wine": {
+        "lemma": "wine"
+      },
+      "winter": {
+        "lemma": "winter"
+      },
+      "wolf": {
+        "lemma": "wolf",
+        "forms": {
+          "plural": "wolves"
+        }
+      },
+      "woman": {
+        "lemma": "woman",
+        "forms": {
+          "plural": "women"
+        }
+      },
+      "work": {
+        "lemma": "work"
+      },
+      "write": {
+        "lemma": "write"
+      },
+      "year": {
+        "lemma": "year"
+      },
+      "yellow": {
+        "lemma": "yellow"
+      },
+      "young": {
+        "lemma": "young"
       }
     }
   },
   "pairs": [
+    {
+      "rel": "mod",
+      "head": "new",
+      "dep": "island",
+      "lang": "*",
+      "allowed": false
+    },
+    {
+      "rel": "mod",
+      "head": "new",
+      "dep": "lake",
+      "lang": "*",
+      "allowed": false
+    },
+    {
+      "rel": "mod",
+      "head": "new",
+      "dep": "mountain",
+      "lang": "*",
+      "allowed": false
+    },
+    {
+      "rel": "mod",
+      "head": "new",
+      "dep": "river",
+      "lang": "*",
+      "allowed": false
+    },
     {
       "rel": "mod",
       "head": "old",
@@ -488,8 +4587,64 @@
     },
     {
       "rel": "obj",
+      "head": "carry",
+      "dep": "soup",
+      "lang": "*",
+      "allowed": false
+    },
+    {
+      "rel": "obj",
+      "head": "cook",
+      "dep": "banana",
+      "lang": "*",
+      "allowed": false
+    },
+    {
+      "rel": "obj",
+      "head": "cook",
+      "dep": "candy",
+      "lang": "*",
+      "allowed": false
+    },
+    {
+      "rel": "obj",
+      "head": "cook",
+      "dep": "cherry",
+      "lang": "*",
+      "allowed": false
+    },
+    {
+      "rel": "obj",
+      "head": "cook",
+      "dep": "ice_cream",
+      "lang": "*",
+      "allowed": false
+    },
+    {
+      "rel": "obj",
+      "head": "cook",
+      "dep": "strawberry",
+      "lang": "*",
+      "allowed": false
+    },
+    {
+      "rel": "obj",
+      "head": "drive",
+      "dep": "bicycle",
+      "lang": "*",
+      "allowed": false
+    },
+    {
+      "rel": "obj",
       "head": "see",
       "dep": "hour",
+      "lang": "*",
+      "allowed": false
+    },
+    {
+      "rel": "obj",
+      "head": "wash",
+      "dep": "house",
       "lang": "*",
       "allowed": false
     }
