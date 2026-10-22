@@ -1,0 +1,588 @@
+{
+  "version": 1,
+  "exportedAt": "2026-10-22T21:52:26.255Z",
+  "concepts": {
+    "apple": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "food",
+        "fruit"
+      ]
+    },
+    "backpack": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "object"
+      ]
+    },
+    "big": {
+      "pos": "adj",
+      "mod": [
+        "concrete"
+      ]
+    },
+    "book": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "object",
+        "readable"
+      ]
+    },
+    "boy": {
+      "pos": "noun",
+      "tags": [
+        "animate",
+        "concrete",
+        "human",
+        "person"
+      ]
+    },
+    "bread": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "food"
+      ]
+    },
+    "cat": {
+      "pos": "noun",
+      "tags": [
+        "animal",
+        "animate",
+        "concrete"
+      ]
+    },
+    "cheese": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "food"
+      ]
+    },
+    "city": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "place"
+      ]
+    },
+    "dog": {
+      "pos": "noun",
+      "tags": [
+        "animal",
+        "animate",
+        "concrete"
+      ]
+    },
+    "eat": {
+      "pos": "verb",
+      "subj": [
+        "animate"
+      ],
+      "obj": [
+        "food"
+      ]
+    },
+    "finish": {
+      "pos": "verb",
+      "obj": [
+        "food",
+        "readable"
+      ],
+      "subj": [
+        "human"
+      ]
+    },
+    "friend": {
+      "pos": "noun",
+      "tags": [
+        "animate",
+        "concrete",
+        "human",
+        "person"
+      ]
+    },
+    "girl": {
+      "pos": "noun",
+      "tags": [
+        "animate",
+        "concrete",
+        "human",
+        "person"
+      ]
+    },
+    "happy": {
+      "pos": "adj",
+      "mod": [
+        "animate"
+      ]
+    },
+    "have": {
+      "pos": "verb",
+      "obj": [
+        "animal",
+        "food",
+        "object"
+      ],
+      "subj": [
+        "animate"
+      ]
+    },
+    "honest": {
+      "pos": "adj",
+      "mod": [
+        "human"
+      ]
+    },
+    "hour": {
+      "pos": "noun",
+      "tags": [
+        "time"
+      ]
+    },
+    "house": {
+      "pos": "noun",
+      "tags": [
+        "concrete",
+        "object",
+        "place"
+      ]
+    },
+    "long": {
+      "pos": "adj",
+      "mod": [
+        "readable",
+        "time"
+      ]
+    },
+    "look_for": {
+      "pos": "verb",
+      "subj": [
+        "animate"
+      ],
+      "obj": [
+        "concrete"
+      ]
+    },
+    "old": {
+      "pos": "adj",
+      "mod": [
+        "concrete"
+      ]
+    },
+    "read": {
+      "pos": "verb",
+      "subj": [
+        "human"
+      ],
+      "obj": [
+        "readable"
+      ]
+    },
+    "red": {
+      "pos": "adj",
+      "mod": [
+        "food",
+        "object"
+      ]
+    },
+    "run": {
+      "pos": "verb",
+      "subj": [
+        "animate"
+      ]
+    },
+    "see": {
+      "pos": "verb",
+      "subj": [
+        "animate"
+      ],
+      "obj": [
+        "concrete"
+      ]
+    },
+    "sleep": {
+      "pos": "verb",
+      "subj": [
+        "animate"
+      ]
+    },
+    "student": {
+      "pos": "noun",
+      "tags": [
+        "animate",
+        "concrete",
+        "human",
+        "person"
+      ]
+    },
+    "uncle": {
+      "pos": "noun",
+      "tags": [
+        "animate",
+        "concrete",
+        "human",
+        "person"
+      ]
+    },
+    "white": {
+      "pos": "adj",
+      "mod": [
+        "animal",
+        "food",
+        "object"
+      ]
+    }
+  },
+  "words": {
+    "it": {
+      "apple": {
+        "lemma": "mela",
+        "gender": "f"
+      },
+      "backpack": {
+        "lemma": "zaino",
+        "gender": "m"
+      },
+      "big": {
+        "lemma": "grande",
+        "adjPosition": "both"
+      },
+      "book": {
+        "lemma": "libro",
+        "gender": "m"
+      },
+      "boy": {
+        "lemma": "ragazzo",
+        "gender": "m"
+      },
+      "bread": {
+        "lemma": "pane",
+        "gender": "m"
+      },
+      "cat": {
+        "lemma": "gatto",
+        "gender": "m"
+      },
+      "cheese": {
+        "lemma": "formaggio",
+        "gender": "m"
+      },
+      "city": {
+        "lemma": "città",
+        "gender": "f"
+      },
+      "dog": {
+        "lemma": "cane",
+        "gender": "m"
+      },
+      "eat": {
+        "lemma": "mangiare"
+      },
+      "finish": {
+        "lemma": "finire",
+        "inflClass": "isc"
+      },
+      "friend": {
+        "lemma": "amico",
+        "gender": "m",
+        "forms": {
+          "plural": "amici"
+        }
+      },
+      "girl": {
+        "lemma": "ragazza",
+        "gender": "f"
+      },
+      "happy": {
+        "lemma": "felice",
+        "adjPosition": "post"
+      },
+      "have": {
+        "lemma": "avere",
+        "forms": {
+          "present.1pl": "abbiamo",
+          "present.1sg": "ho",
+          "present.2sg": "hai",
+          "present.3pl": "hanno",
+          "present.3sg": "ha"
+        }
+      },
+      "honest": {
+        "lemma": "onesto",
+        "adjPosition": "post"
+      },
+      "hour": {
+        "lemma": "ora",
+        "gender": "f"
+      },
+      "house": {
+        "lemma": "casa",
+        "gender": "f"
+      },
+      "long": {
+        "lemma": "lungo",
+        "adjPosition": "post"
+      },
+      "look_for": {
+        "lemma": "cercare"
+      },
+      "old": {
+        "lemma": "vecchio",
+        "adjPosition": "pre"
+      },
+      "read": {
+        "lemma": "leggere"
+      },
+      "red": {
+        "lemma": "rosso",
+        "adjPosition": "post"
+      },
+      "run": {
+        "lemma": "correre"
+      },
+      "see": {
+        "lemma": "vedere"
+      },
+      "sleep": {
+        "lemma": "dormire"
+      },
+      "student": {
+        "lemma": "studente",
+        "gender": "m"
+      },
+      "uncle": {
+        "lemma": "zio",
+        "gender": "m",
+        "forms": {
+          "plural": "zii"
+        }
+      },
+      "white": {
+        "lemma": "bianco",
+        "adjPosition": "post"
+      }
+    },
+    "en": {
+      "apple": {
+        "lemma": "apple"
+      },
+      "backpack": {
+        "lemma": "backpack"
+      },
+      "big": {
+        "lemma": "big"
+      },
+      "book": {
+        "lemma": "book"
+      },
+      "boy": {
+        "lemma": "boy"
+      },
+      "bread": {
+        "lemma": "bread"
+      },
+      "cat": {
+        "lemma": "cat"
+      },
+      "cheese": {
+        "lemma": "cheese"
+      },
+      "city": {
+        "lemma": "city"
+      },
+      "dog": {
+        "lemma": "dog"
+      },
+      "eat": {
+        "lemma": "eat"
+      },
+      "finish": {
+        "lemma": "finish"
+      },
+      "friend": {
+        "lemma": "friend"
+      },
+      "girl": {
+        "lemma": "girl"
+      },
+      "happy": {
+        "lemma": "happy"
+      },
+      "have": {
+        "lemma": "have",
+        "forms": {
+          "present.3sg": "has"
+        }
+      },
+      "honest": {
+        "lemma": "honest",
+        "forms": {
+          "indef": "an"
+        }
+      },
+      "hour": {
+        "lemma": "hour",
+        "forms": {
+          "indef": "an"
+        }
+      },
+      "house": {
+        "lemma": "house"
+      },
+      "long": {
+        "lemma": "long"
+      },
+      "look_for": {
+        "lemma": "look for",
+        "forms": {
+          "present.3sg": "looks for"
+        }
+      },
+      "old": {
+        "lemma": "old"
+      },
+      "read": {
+        "lemma": "read"
+      },
+      "red": {
+        "lemma": "red"
+      },
+      "run": {
+        "lemma": "run"
+      },
+      "see": {
+        "lemma": "see"
+      },
+      "sleep": {
+        "lemma": "sleep"
+      },
+      "student": {
+        "lemma": "student"
+      },
+      "uncle": {
+        "lemma": "uncle"
+      },
+      "white": {
+        "lemma": "white"
+      }
+    }
+  },
+  "pairs": [
+    {
+      "rel": "mod",
+      "head": "old",
+      "dep": "apple",
+      "lang": "en",
+      "allowed": false
+    },
+    {
+      "rel": "mod",
+      "head": "red",
+      "dep": "bread",
+      "lang": "*",
+      "allowed": false
+    },
+    {
+      "rel": "obj",
+      "head": "see",
+      "dep": "hour",
+      "lang": "*",
+      "allowed": false
+    }
+  ],
+  "patterns": [
+    {
+      "id": "sv_present",
+      "level": "A1",
+      "body": {
+        "shape": "sv",
+        "subj": {
+          "kind": [
+            "np",
+            "pronoun"
+          ],
+          "number": [
+            "sg",
+            "pl"
+          ]
+        },
+        "np": {
+          "det": [
+            "def",
+            "indef"
+          ],
+          "adjChance": 0.5
+        },
+        "tense": "present"
+      }
+    },
+    {
+      "id": "svo_definite_sg",
+      "level": "A1",
+      "body": {
+        "shape": "svo",
+        "subj": {
+          "kind": [
+            "np"
+          ],
+          "number": [
+            "sg"
+          ]
+        },
+        "obj": {
+          "kind": [
+            "np"
+          ],
+          "number": [
+            "sg"
+          ]
+        },
+        "np": {
+          "det": [
+            "def"
+          ],
+          "adjChance": 0
+        },
+        "tense": "present"
+      }
+    },
+    {
+      "id": "svo_present",
+      "level": "A1",
+      "body": {
+        "shape": "svo",
+        "subj": {
+          "kind": [
+            "np",
+            "pronoun"
+          ],
+          "number": [
+            "sg",
+            "pl"
+          ]
+        },
+        "obj": {
+          "kind": [
+            "np"
+          ],
+          "number": [
+            "sg",
+            "pl"
+          ]
+        },
+        "np": {
+          "det": [
+            "def",
+            "indef"
+          ],
+          "adjChance": 0.5
+        },
+        "tense": "present"
+      }
+    }
+  ]
+}
